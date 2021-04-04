@@ -1,0 +1,420 @@
+
+ /*******************
+ **RESPONSIVE DESIGN BEGINS
+ **
+ ********************/
+
+ /*****************
+ *
+ * MEDIA QUERY @ SCREEN SIZE BELOW 768PX
+ *******************/
+ @media screen and (max-width:1200px){
+      
+    /**********************FORM**************************/
+
+    .forms{
+      width: 45%;
+    }
+
+    
+   .errors-log{
+      margin-left: 27%;
+      width: 45%;
+   }
+}
+
+@media screen and (max-device-width:1024px){
+    
+    /**********************FORM**************************/
+    .forms{
+      width: 50%;
+    }
+
+   .nav-link-wrapper a{
+       padding: 15px 18px;
+   }
+
+   .errors-log{
+      margin-left: 25%;
+      width: 50%;
+   }
+}
+
+
+@media screen and (max-device-width:994px){
+
+   .container{
+      width: 100%;
+   }
+
+   footer{
+      width: 100%;
+   }
+
+   .subscribe_box{
+      width: 300px;
+   }
+
+   .btn-submit{
+      right: 2px;
+   }
+
+   .pub_search_wrapper{
+       width: 70%;
+   }
+    
+   /**********************FORM**************************/
+   .forms{
+     width: 50%;
+   }
+
+  .nav-link-wrapper a{
+      padding: 15px 18px;
+  }
+
+  .errors-log{
+     margin-left: 25%;
+     width: 50%;
+  }
+}
+
+
+@media screen and (max-device-width:768px ){
+
+   .sub-tab-form{
+      margin: 7px;
+   }
+
+   .subscribe_box{
+      height: 250px;
+      margin : 0px auto;
+   }
+
+
+   .subscribe_box p{
+      font-size: 22px;
+      padding: 20px 5px;
+   }
+
+   .subscribe_box form{
+      padding:20px 10px;
+   }
+
+   .news-wrapper{
+      width: 330px;
+   }
+   
+   .public_post_wrapper{
+      width: 100%;
+   }
+
+   .sub-tab-form p{
+      font-size: 26px;
+      font-family: 'Averia Serif Libre' , cursive ;
+   }
+
+   /*****global container****/
+   .container{
+      width: 100%;
+      box-shadow: none;
+   }
+
+   .o_wrapper{
+      flex-direction: column;
+   }
+ 
+   /***icon-style**/
+   .comment-textarea{
+      width:60%;
+   }
+
+   .submit-comment{
+      width:30%;
+   }
+   
+   .post-content{
+      width: 100%;
+      margin-top: 2px;
+    }
+  
+   .full-post-content{
+      border-bottom: 1px solid rgb(219, 209, 209);
+      padding: 20px;
+      font-size: 20px;
+      min-height: 300px;
+   }
+
+   footer{
+      width: 100%;
+   }
+
+   /*****************HEADER SECTION***********************/
+   .head h1{
+      font-size: 30px; 
+   }
+
+   .big-wrapper{
+      height: 65px;
+   }
+
+   .head-section{
+       padding: 15px;
+       position: fixed;
+       z-index: 1111;
+       right: 0;
+       left: 0;
+       transition: .4s;
+   }
+
+   .nav-link-wrapper{
+       display: none;
+   }
+   
+   .ham-icon{
+       display: block;
+       position: absolute;
+       top: 0;
+       right: 0;
+       color: #fff;
+       padding: 5px;
+       border :1px solid skyblue;
+   }
+
+   .head{
+       width: 100%;
+       margin: 0px;
+       padding: 0px;
+   }
+
+   .res-link-wrapper.tab a{
+      display: block;
+      color:#fff;
+      padding: 3px;
+  }
+
+   .res-link-wrapper.tab a:hover{
+      border: 1px solid blue;
+      border-radius: 4px;
+      background: skyblue;
+   }
+   
+    /**********************FORM**************************/
+
+    .forms{
+      width: 70%;
+    }
+    
+    /********************HoME link*********************/
+    #content{
+      flex-wrap: wrap;
+    }
+
+    #content a{
+      padding: 10px 60px;
+      margin: 3px;
+      width:100%;
+      font-size: 30px;
+   }
+
+   
+   .image-wrapper{
+       width:80%;
+   }
+    /**********************HEAD***********************/
+   .head h1{
+      font-size: 1.7em;  
+   }
+
+   /***********************BANNER************************/
+   #banner{
+       flex-direction: column;
+   }
+  
+   #banner form{
+       width: 90%;
+   }
+   /*********************
+   ****content
+   **************************/
+   .post-title{
+      font-size: 21px;
+   }
+   .main-post{
+      padding: 2px;
+   } 
+   .errors-log{
+       margin-left: 15%;
+       width: 70%;
+   }
+   .post-content{
+     width: 98%;
+     margin: 3px;
+   }
+   .full-post-content{
+     padding: 2px;
+   }
+
+   /***contact**/
+   #About_page{
+      margin: 0px;
+   }
+
+   #About_page .cont{
+      width: 400px;
+   }
+
+   .subscribe_box{
+       width: 400px;
+   }
+
+}
+
+
+
+@media screen and (max-device-width:450px){
+
+   .sub-tab-form{
+      margin: 7px;
+   }
+
+   .post-overlay{
+      height:405px;
+   }
+
+   .subscribe_box{
+      width: 330px;
+      height: 240px;
+      padding: 5px;
+      justify-content: center;
+      margin : 0px auto;
+   }
+   
+   .subscribe_box p{
+      font-size: 16px;
+      padding: 20px 5px;
+   }
+
+   .subscribe_box form{
+      padding:20px 10px;
+   }
+
+   .news-wrapper{
+      width: 330px;
+   }
+   
+   .sub-tab-form p{
+      font-size: 17px;
+      font-family: inherit ;
+   }
+
+   .public_post_wrapper{
+      width: 100%;
+   }
+
+   post-info{
+      width: 330px;
+   }
+
+   .pub_search_wrapper{
+       width: 90%;
+   }
+
+
+   .btn-submit{
+       right: 2px;
+   }
+
+   .comment-details.wrapper{
+      width:250px;
+  }
+  
+  .comment.reply.clearfix{
+      width: 250px;
+  }
+  
+   /***********************FORM**********************/
+   .forms{
+         width: 90%;
+   }
+
+   form{
+      padding: 10px 10px;
+   }
+
+   /**********************HEAD***********************/
+
+   .big-wrapper{
+      height: 55px;
+   }
+
+   .head h1{
+      font-size: 1.3em;  
+   }
+   
+   .comment-textarea{
+      width:60%;
+   }
+   /********************
+   ****Topic styling 
+   ********************/
+  .topic-wrapper-tab a{
+       display: inline-block;   
+   }
+   /*********************
+   ****content
+   **************************/
+   .main-post{
+      min-height: 300px;
+      font-weight: 30px;
+      font-family: inherit;
+  }
+  
+
+  .topic_info a{
+      margin-bottom: 10px;
+  }
+
+  .post-title{
+      font-size: 30px;
+      font-family: 'Segoe UI', sans-serif;
+  }
+
+  /******************
+   ***footer subscibe form
+   *******************/
+  .form-form{
+      width: 90%;
+      margin-left: 5px;
+  }
+
+ .form-cont input{
+      padding: 5px ;
+      background-color: #fff;
+      font-size: 15px;
+ }
+
+ /***contact**/
+
+#About_page .cont{
+   width: 300px;
+}
+
+#About .cont>form>textarea{
+   width: 95%;
+}
+
+.cont>form>input,textarea{
+   margin: 1px;
+   width: 95%;
+}
+
+.cont_head{
+   font-size: 17px;
+}
+
+.errors-log{
+   margin-left: 5%;
+   width: 320px;
+}
+
+}  

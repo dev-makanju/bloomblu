@@ -1,0 +1,16 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteCond %{REQUEST_FILENAME}\.php  -f
+
+RewriteRule  ^single_post/([0-9]+)/([0-9a-zA-Z_-]+) single_post.php?post-slug=$1 [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteCond %{REQUEST_FILENAME}\.php  -f
+
+
+
+
+
